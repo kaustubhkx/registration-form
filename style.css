@@ -1,0 +1,143 @@
+h1{
+    align-items: center;
+    align-content: center;
+}
+#first_name{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#middle_name{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#last_name{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#phone_number{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#age{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#email{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#qualification{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#address_1{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#address_2{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#state{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#city{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#pincode{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#country{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+#about-yourself{
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 50px;
+    align-items: center;
+    padding: 5px;
+}
+#submit{
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 7px;
+    width: 150px;
+    height: 36px;
+    text-align: center;
+    background-color: transparent; 
+}
+:hover#submit
+{
+    color: red;
+    border: solid red 2px;
+    box-shadow: 100px;
+    text-shadow: 100px;
+
+}
+body{
+    align-items: center;
+}
+.container
+{
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    border: 2px black solid;
+    width: 1000px;
+    height: 850px;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+label{
+    width: 100px;
+    display: inline-block;
+}

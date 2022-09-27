@@ -5,57 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Registration Form</title>
 </head>
 
 <body>
+    <h1>Registration Form</h1>
+    <div class="container">
     <form method="post" action="action.php">
-        First Name <input type="text" name="First_Name" id="first_name" required>
+        <label>First Name</label> 
+        <input type="text" name="First_Name" id="first_name" required class="inputs">
         <br>
         <br>
-        Middle Name <input type="text" name="Middle_Name" id="middle_name" required>
+        <label>Middle Name</label>
+         <input type="text" name="Middle_Name" id="middle_name" required class="inputs">
         <br>
         <br>
-        Last Name <input type="text" name="Last_Name" id="last_name" required>
+        <label>Last Name</label>
+        <input type="text" name="Last_Name" id="last_name" required class="inputs">
         <br>
         <br>
-        Age <input type="number" min="1" max="100" name="Age" id="age" required>
+        <label>Age</label> 
+        <input type="number" min="1" max="100" name="Age" id="age" required class="inputs">
         <br>
         <br>
-        Phone Number <input type="phone" required name="Phone_Number" id="phone_number">
+       <label>Phone Number</label> 
+       <input type="phone" required name="Phone_Number" id="phone_number" class="inputs">
         <br>
         <br>
-        Email <input type="email" required name="Email" id="email">
+        <label>Email</label> 
+        <input type="email" required name="Email" id="email" class="inputs">
         <br>
         <br>
-        Qualification <input type="text" required name="Qualification" id="qualification">
+        <label>Qualification</label> 
+        <input type="text" required name="Qualification" id="qualification" class="inputs">
         <br>
         <br>
-        Address 1<input type="text" name="Address_1" id="address_1">
+        <label>Address 1</label>
+        <input type="text" name="Address_1" id="address_1" class="inputs">
         <br>
         <br>
-        Address 2<input type="text" name="Address_2" id="address_2">
+        <label>Address 2</label>
+        <input type="text" name="Address_2" id="address_2" class="inputs">
         <br>
         <br>
-        State <input type="text" name="s_state" id="state">
+        <label>State</label> 
+        <input type="text" name="s_state" id="state" class="inputs">
         <br>
         <br>
-        City <input type="text" name="City" id="city">
+        <label>City</label> 
+        <input type="text" name="City" id="city" class="inputs">
         <br>
         <br>
-        Pincode <input type="number" name="Pincode" id="pincode">
+        <label>Pincode</label> 
+        <input type="number" name="Pincode" id="pincode" class="inputs">
         <br>
         <br>
-        Country <input type="text" name="Country" id="country">
+        <label>Country</label> 
+        <input type="text" name="Country" id="country" class="inputs">
         <br>
         <br>
-        About Yourself
+        <label>About Yourself</label>
         <br>
-        <textarea id="about-yourself" name="About_Yourself" rows="4" cols="50"></textarea>
+        <textarea id="about-yourself" name="About_Yourself" rows="4" cols="50" class="inputs"></textarea>
         <br>
         <br>
-        <input type="submit" name="save" value="submit">       
+        <input type="submit" name="save" value="Register" id="submit">
     </form>
+</div>
 
 </body>
 
